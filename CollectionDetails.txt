@@ -1,0 +1,103 @@
+#1:What is Collections Framework?
+	-We will use Collectings Framework
+		For Storing Objects in differnets formats and orders without Size and
+		type limitation and further.
+	-Carrying all objects at a time one class method to another class method 
+	across multiple layers of the project as method argument and return type
+	with single name.
+	-We will use collections framework.
+	
+#2:What is a collection?
+	-In general A group of individual things is called collection
+ 	-Technally
+ 		A collection is a container object, it is used for collecting multiple
+ 		homogenous and heterogenous,unique and duplicate individuals objects without
+ 		size limitation and further it is used for sending all these objects
+ 		as one unit using single name from one class method to another class
+ 		method as argument and return value.
+ 		
+ 		Example:1.School Bag		->Heterogenous Collection
+ 				2:Container Lorry	->Homogenous Collection	
+ #3:What are the Different operations we can perform on collection object?
+ 	-We can perform 9 operations on collection object
+ 		1.adding 	object
+ 		2.counting 	objects	
+ 		3.printing 	object
+ 		
+ 		4.Searching object
+ 		5.Retrieving object
+ 		6.Removing 	object
+ 		
+ 		7.replacing  object
+ 		8.inserting  object
+ 		9.sorting    objects	
+ 
+ #4:How can we store multiple objects as one group?
+ 	1.By using an Array
+ 	2.by using collection
+ 	
+ #5:Why do we need collection when we have array already?
+ 						or
+ 	What are the problems of array those forcing sun to develop collection API?
+ 						or
+ 	Why Sun developed collection API, when we have array for collecting
+ 	objects?					
+ 						or
+ 	What are the problems of array?
+ 		->Array has five problems
+ 			1.It allows only homogenous objects
+ 			2.Its Size canot be increased or decreased.
+ 			3.Does not have in-built methods to perform different operations
+ 			 such as removing,searching,sorting,etc..
+ 			4.Cannot store objects in different formats
+ 			5.Cannot store objects in different order
+ 		
+ 		:To solve all above five problems of array object SUN developed 
+ 		 collections API.	  							
+ 						
+ 	1.It allows only homogenous objects
+ 		-Object[] obj=new Object[5];
+ 		
+ 		obj[0]=new Faculty();	
+ 		obj[1]=new Student();	
+ 		obj[2]=new Lion();	
+ 		obj[3]=new Cat();	
+ 		obj[4]=new Bike();
+ 							
+ 		obj[5]=new Car(); :Error(max size)	
+ 	Object[] tempObj=new Object[10];
+ 	
+ 	for(int i=0;i<obj.length;i++){
+ 		tempObj[i]=obj[i];
+ 	}	
+ 	obj=tempObj;
+ 	obj[5]="car";				
+ 						
+ 	2.Its Size canot be increased or decreased.					
+ 		->Algorithim for Solving problem:
+ 			1.Create a class with Object[] object with required capacity
+ 			2.Develop a method to store elements in this array
+ 			3.Before storing every element we must check size
+ 			  reached to collection capacity or not
+ 			4.if Reached,we must increase capacity as below
+ 				a.Create new array with more required capacity
+ 				b.Copy elements from old array to this new array
+ 				c.Assign this new array object reference to old array
+ 				referenced variable
+ 			5.Then store new element at end of all elements in this new 
+ 			  array object.	  				
+ 						
+ 						
+ 						
+ 						
+ 						
+ 						
+ 						
+ 						
+ 						
+ 						
+ 						
+ 						
+ 						
+ 						 	
+ 				
